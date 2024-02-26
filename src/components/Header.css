@@ -1,0 +1,68 @@
+/*Header.css*/
+.header-container {
+  background: linear-gradient( #b34d4d00, #974250);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  border-radius: 8px;
+  height: auto;
+}
+.footer-container {
+  background: linear-gradient(#663324);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  border-radius: 8px;
+  height: 100%;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.navbar-brand {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.navbar-nav .nav-link {
+  color: #2e2b2b;
+  font-weight: bold;
+  text-transform: uppercase;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.navbar-nav .nav-link:hover {
+  color: #25231b;
+}
+
+.dropdown-menu {
+  background-color: #1c2331;
+  border: none;
+}
+
+.dropdown-item {
+  color: #100f0f;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.dropdown-item:hover {
+  background-color: #6d545e;
+  color: rgb(5, 4, 4);
+}
+
+.avatar {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+.signup {
+  margin-right: 150px;
+}
+
+.login {
+  margin-right: 150px;
+}

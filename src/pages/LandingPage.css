@@ -1,0 +1,27 @@
+.landing-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.landing-primary {
+  border-radius: 10px;
+  background: rgba(42, 44, 50, 0.518);
+  backdrop-filter: blur(10px);
+  max-height: 100%;
+  max-width: 100%;
+ 
+ 
+}
+.container-landing {
+  border-radius: 10px;
+  background: rgba(31, 34, 43, 0.518);
+  backdrop-filter: blur(10px);
+}
+.laning-heading {
+  color: rgb(206, 176, 100);
+}
+
+.topic {
+  color: rgb(2, 2, 2);
+}
